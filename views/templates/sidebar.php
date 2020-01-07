@@ -32,15 +32,15 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
+         <!-- <li class="nav-item">
             <a href="?page=siswa&ip=<?=$ip?>" class="nav-link">
               <i class="fa fa-user-circle nav-icon"></i>
               <p>
                 Daftar Siswa
-                <!-- <span class="right badge badge-danger">New</span> -->
+               
               </p>
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="?page=presensi&ip=<?=$ip?>" class="nav-link">
               <i class="fa fa-address-book nav-icon"></i>
