@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost','root','','crud');
+$conn = mysqli_connect('localhost','root','','db_finger');
 
 //ceking connection
 if (mysqli_connect_errno()){

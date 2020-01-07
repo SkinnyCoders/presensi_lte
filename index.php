@@ -87,6 +87,9 @@ $devices = mysqli_query($conn, "SELECT * FROM mesin");
       case 'rekap':
         require __DIR__ . '/views/rekap.php';
       break;
+      case 'konfigurasi':
+        require __DIR__ .'/views/setting_sistem.php';
+        break;
       default:
         require __DIR__ . '/views/error.php';
       break;
@@ -102,3 +105,14 @@ $devices = mysqli_query($conn, "SELECT * FROM mesin");
 
 } // end else cek session
 ?>
+
+<script type="text/javascript">    
+    //fungsi untuk menampilkan jam saat ini    
+        function tampilkanwaktu(){   
+            var waktu = new Date();
+            var sh = waktu.getHours() + "";    //memunculkan nilai jam, //tambahan script + "" supaya variable sh bertipe string sehingga bisa dihitung panjangnya : sh.length    //ambil nilai menit
+            var sm = waktu.getMinutes() + "";  //memunculkan nilai detik    
+            var ss = waktu.getSeconds() + "";  //memunculkan jam:menit:detik dengan menambahkan angka 0 jika angkanya cuma satu digit (0-9)
+            document.getElementById("clock").innerHTML = (sh.length==1?"0"+sh:sh) + ":" + (sm.length==1?"0"+sm:sm) + ":" + (ss.length==1?"0"+ss:ss);
+        }
+    </script>
