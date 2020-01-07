@@ -38,7 +38,7 @@
           </li>
           <li class="nav-item">
             <a href="?page=siswa&ip=<?=$ip?>" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="fa fa-user-circle nav-icon"></i>
               <p>
                 Daftar Siswa
                 <!-- <span class="right badge badge-danger">New</span> -->
@@ -47,7 +47,7 @@
           </li>
           <li class="nav-item">
             <a href="?page=presensi&ip=<?=$ip?>" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="fa fa-address-book nav-icon"></i>
               <p>
                 Presensi Siswa
                 <!-- <span class="right badge badge-danger">New</span> -->
@@ -56,7 +56,7 @@
           </li>
           <li class="nav-item">
             <a href="?page=rekap&ip=<?=$ip?>" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="fa fa-database nav-icon"></i>
               <p>
                 Rekap Presensi Siswa
                 <!-- <span class="right badge badge-danger">New</span> -->
@@ -65,7 +65,7 @@
           </li>
           <li class="nav-item">
             <a href="?page=edit-mesin&ip=<?=$ip?>" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="fa fa-cog nav-icon"></i>
               <p>
                 Setting Device
                 <!-- <span class="right badge badge-danger">New</span> -->
@@ -86,7 +86,7 @@
           </li>
           <li class="nav-item">
             <a href="?page=tambah-mesin" class="nav-link">
-            <i class="far fa-plus nav-icon"></i>
+            <i class="fa fa-plus nav-icon"></i>
               <p>
                 Tambah Device
                 <!-- <span class="right badge badge-danger">New</span> -->
