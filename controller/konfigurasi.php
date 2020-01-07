@@ -69,7 +69,7 @@ if (isset($_POST['update'])) {
 		//insert table 
 		$insertKonfig = mysqli_query($conn, "UPDATE `konfigurasi` SET `url`='$url',`api_key`='$key' WHERE 1");
 		if ($insertKonfig) {
-			$_SESSION['toast'] = ['msg' => 'Selamat!, Konfigurasi Sistem berhasil'];
+			$_SESSION['toast'] = ['msg' => 'Selamat!, Konfigurasi Sistem berhasil diperbarui'];
         	header('location:'.$_SERVER['HTTP_REFERER']);
 		}else{
 			$_SESSION['failed'] = ['msg' => 'Maaf, Konfigurasi sistem gagal!'];
